@@ -28,19 +28,6 @@ function error(err) {
 };
 
 
-
-function staticLoadPlaces() {
-   return [
-       {
-           name: 'Magnemite',
-           location: {
-               lat: 40.57948,
-               lng: -3.93122,
-           }
-       },
-   ];
-}
-
 function renderPlaces(places) {
    let scene = document.querySelector('a-scene');
 
