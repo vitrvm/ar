@@ -12,6 +12,7 @@ var options = {
   
 function success(pos) {
     var crd = pos.coords;
+    console.log(crd.latitude)
     places = [
         {
             name: 'Magnemite',
